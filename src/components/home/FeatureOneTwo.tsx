@@ -9,37 +9,37 @@ interface DataType {
 const feature_data: DataType[] = [
    {
       id: 1,
-      title: (<>Secure and Efficient Transactions</>),
-      desc: (<>Trade with confidence on our secure platform powered by GAPX Token's advanced blockchain technology, ensuring fast and reliable transactions.</>),
+      title: (<>Staking Rewards</>),
+      desc: (<>Earn rewards by staking GAPX Tokens, contributing to network security and liquidity provision.</>),
       img: "/assets/img/images/features_img01.png",
    },
    {
       id: 2,
-      title: (<>Reduced Trading Fees</>),
-      desc: (<>Enjoy lower transaction costs when trading GAPX Token pairs on ExBit Global, maximizing your profitability with every trade.</>),
+      title: (<>Referral Program</>),
+      desc: (<>Invite friends to join ExBit Global and earn rewards through our referral program, expanding your earnings with each new member.</>),
       img: "/assets/img/images/features_img02.png",
    },
    {
       id: 3,
-      title: (<>Liquidity Rewards</>),
-      desc: (<>Stake your GAPX Tokens to earn passive income through liquidity rewards, enhancing your portfolio's growth potential.</>),
+      title: (<>Launchpad Access</>),
+      desc: (<>Participate in token launch events via our launchpad, gaining early access to promising projects and potential investment opportunities.</>),
       img: "/assets/img/images/features_img03.png",
    },
    {
       id: 4,
-      title: (<>Exclusive Trading Opportunities</>),
-      desc: (<>Access exclusive trading pairs and opportunities available only through GAPX Token integration, diversifying your investment strategy.</>),
+      title: (<>Promotions and Giveaways</>),
+      desc: (<>Engage in regular promotions and giveaways to win GAPX Tokens and other exciting rewards, recognizing your loyalty and active participation.</>),
       img: "/assets/img/images/features_img04.png",
    },
 ]
-const FeatureOne = () => {
+const FeatureOneTwo = () => {
    return (
       <section id="feature" className="features-area pt-140 pb-110">
          <div className="container">
             <div className="row justify-content-center">
                <div className="col-lg-10">
                   <div className="section-title text-center mb-70">
-                     <h2 className="title">Explore the Power of GAPX Token Integration on Exbitglobal</h2>
+                     <h2 className="title">Join the GAPX Token Ecosystem</h2>
                   </div>
                </div>
             </div>
@@ -63,4 +63,4 @@ const FeatureOne = () => {
    )
 }
 
-export default FeatureOne
+export default FeatureOneTwo
