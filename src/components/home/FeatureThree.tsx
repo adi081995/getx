@@ -27,7 +27,7 @@ const FeatureThree = () => {
       <section className="features-area-two features-bg" style={{ backgroundImage: `url(/assets/img/bg/features_bg.png)` }}>
          <div className="container">
             <div className="features-inner-wrap">
-               <div className="features-item-wrap">
+               {/* <div className="features-item-wrap">
                   <div className="row justify-content-center">
                      {feature_data.map((item) => (
                         <div key={item.id} className="col-lg-4 col-md-6">
@@ -42,7 +42,7 @@ const FeatureThree = () => {
                         </div>
                      ))}
                   </div>
-               </div>
+               </div> */}
                <div className="row">
                   <div className="col-lg-12">
                      <div className="section-title section-title-two text-center">
