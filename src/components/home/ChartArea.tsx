@@ -2,9 +2,9 @@ import { useState } from 'react';
 import { Doughnut } from 'react-chartjs-2';
 import 'chart.js/auto';
 
-const tab_title: string[] = ["Funding Allocation", "Token Distribution",];
-const chart_List_1: string[] = ["Contingency: 70%", "Business Development: 20%", "Investor: 30%", "Poland: 15%", "Legal & Regulation: 20%", "Czech Republic: 50%"]
-const chart_List_2: string[] = ["Czech Republic: 50%", "Poland: 15%", "Legal & Regulation: 20%", "Contingency: 70%", "Business Development: 20%", "Investor: 30%"]
+const tab_title: string[] = ["Total Supply and Allocation"];//"Token Distribution",
+const chart_List_1: string[] = ["Launchpad Initiatives: 10%", "Presale Distribution: 40%", "Team Incentives: 15%", "Development: 15%", "Bonus for Top Long-term Staking Partners: 10%", "Reserved for Future Strategic Initiatives: 10%"]
+// const chart_List_2: string[] = ["Czech Republic: 50%", "Poland: 15%", "Legal & Regulation: 20%", "Contingency: 70%", "Business Development: 20%", "Investor: 30%"]
 
 const ChartArea = () => {
 
@@ -18,15 +18,15 @@ const ChartArea = () => {
 
 
    const chartData = [
-      [70, 20, 30, 15, 20, 50], // Funding Allocation percentages
-      [50, 15, 20, 70, 20, 30]  // Token Distribution percentages
+      [10, 40, 15, 15, 10, 10], // Funding Allocation percentages
+      // [50, 15, 20, 70, 20, 30]  // Token Distribution percentages
    ];
 
    const data = {
       // labels: ["Contingency", "Business Development", "Investor", "Poland", "Legal & Regulation", "Czech Republic"],
       datasets: [
          {
-            label: 'Founding Allocation',
+            label: 'Total Supply and Allocation',
             data: chartData[activeTab],
             backgroundColor: ["#44A08D", "#136F84", "#0B446D", "#033356", "#012641", "#191F28"]
          }
@@ -79,9 +79,9 @@ const ChartArea = () => {
                         <img src="/assets/img/images/chart_img.png" alt="" />
                         <p>Ethereum is a decentralized, open-source <br /> blockchain with smart contract</p>
                         <ul className="list-wrap">
-                           <li><span>1</span>Symbol: CIC</li>
-                           <li><span>2</span>Initial Value : 1 ETH = 3177.38 CIC</li>
-                           <li><span>3</span>Type : ERC20</li>
+                           <li><span>1</span>Symbol: Gapx</li>
+                           <li><span>2</span>Initial Value : 1 ETH = 0  CIC</li>
+                           <li><span>3</span>Type : -</li>
                         </ul>
                      </div>
                   </div>
