@@ -40,14 +40,14 @@ const ChartArea = () => {
                <div className="row align-items-center">
                   <div className="col-lg-6">
                      <div className="chart-wrap">
-                        <div className="chart">
+                        <div className="chart" style={{width:'unset'}}>
                            <div id="doughnutChart">
                               {/* {chartData[activeTab] && <Doughnut data={data} />} */}
                               <img src="/assets/img/images/tokenallocation.png" alt="" />
                            </div>
                         </div>
                         <div className="chart-tab">
-                           <ul className="nav nav-tabs" id="myTab" role="tablist">
+                           <ul className="nav nav-tabs" id="myTab" role="tablist" style={{display:'none'}}>
                               {tab_title.map((tab, index) => (
                                  <li key={index} className="nav-item">
                                     <button onClick={() => handleTabClick(index)}
