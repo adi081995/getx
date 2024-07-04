@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Doughnut } from 'react-chartjs-2';
+// import { Doughnut } from 'react-chartjs-2';
 import 'chart.js/auto';
 
 const tab_title: string[] = ["Total Supply and Allocation"];//"Token Distribution",
@@ -17,21 +17,21 @@ const ChartArea = () => {
    };
 
 
-   const chartData = [
-      [10, 40, 15, 15, 10, 10], // Funding Allocation percentages
-      // [50, 15, 20, 70, 20, 30]  // Token Distribution percentages
-   ];
+   // const chartData = [
+   //    [10, 40, 15, 15, 10, 10], // Funding Allocation percentages
+   //    // [50, 15, 20, 70, 20, 30]  // Token Distribution percentages
+   // ];
 
-   const data = {
-      // labels: ["Contingency", "Business Development", "Investor", "Poland", "Legal & Regulation", "Czech Republic"],
-      datasets: [
-         {
-            label: 'Total Supply and Allocation',
-            data: chartData[activeTab],
-            backgroundColor: ["#44A08D", "#136F84", "#0B446D", "#033356", "#012641", "#191F28"]
-         }
-      ],
-   };
+   // const data = {
+   //    // labels: ["Contingency", "Business Development", "Investor", "Poland", "Legal & Regulation", "Czech Republic"],
+   //    datasets: [
+   //       {
+   //          label: 'Total Supply and Allocation',
+   //          data: chartData[activeTab],
+   //          backgroundColor: ["#44A08D", "#136F84", "#0B446D", "#033356", "#012641", "#191F28"]
+   //       }
+   //    ],
+   // };
 
    return (
       <div id="chart" className="chart-area pt-140">
