@@ -1,26 +1,26 @@
-interface DataType {
-   id: number;
-   title: string;
-   img: string;
-}
+// interface DataType {
+//    id: number;
+//    title: string;
+//    img: string;
+// }
 
-const feature_data: DataType[] = [
-   {
-      id: 1,
-      title: "Lifetime free and transaction",
-      img: "/assets/img/images/features_two_img01.png"
-   },
-   {
-      id: 2,
-      title: "Security & Control over money",
-      img: "/assets/img/images/features_two_img02.png"
-   },
-   {
-      id: 3,
-      title: "Mobile Payment Make Easy",
-      img: "/assets/img/images/features_two_img03.png"
-   }
-]
+// const feature_dataa: DataType[] = [
+//    {
+//       id: 1,
+//       title: "Lifetime free and transaction",
+//       img: "/assets/img/images/features_two_img01.png"
+//    },
+//    {
+//       id: 2,
+//       title: "Security & Control over money",
+//       img: "/assets/img/images/features_two_img02.png"
+//    },
+//    {
+//       id: 3,
+//       title: "Mobile Payment Make Easy",
+//       img: "/assets/img/images/features_two_img03.png"
+//    }
+// ]
 
 const FeatureThree = () => {
    return (
