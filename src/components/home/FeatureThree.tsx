@@ -46,7 +46,7 @@ const FeatureThree = () => {
                <div className="row">
                   <div className="col-lg-12">
                      <div className="section-title section-title-two text-center">
-                        <h2 className="title">Welcome to GAPX Token, where cutting-edge cryptocurrency meets versatile digital transactions across gaming, utility sectors, metaverses, and virtual product payments. Built on a unique mechanism, GAPX Token guarantees unparalleled security and efficiency with every transaction. Our platform pioneers reliability and innovation, offering a secure environment for users worldwide. Embrace simplicity and excellence in digital transactions across diverse industries with GAPX Token as your ultimate gateway. Join the future today.</h2>
+                        <h2 className="title" style={{ font-size: '26px' }} >Welcome to GAPX Token, where cutting-edge cryptocurrency meets versatile digital transactions across gaming, utility sectors, metaverses, and virtual product payments. Built on a unique mechanism, GAPX Token guarantees unparalleled security and efficiency with every transaction. Our platform pioneers reliability and innovation, offering a secure environment for users worldwide. Embrace simplicity and excellence in digital transactions across diverse industries with GAPX Token as your ultimate gateway. Join the future today.</h2>
                      </div>
                   </div>
                </div>
