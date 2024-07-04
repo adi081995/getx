@@ -63,13 +63,13 @@ const ChartArea = () => {
                                     </ul>
                                  </div>
                               </div>
-                              <div className={`tab-pane fade ${activeTab === 1 ? 'show active' : ''}`} id="description">
+                              {/* <div className={`tab-pane fade ${activeTab === 1 ? 'show active' : ''}`} id="description">
                                  <div className="chart-list">
                                     <ul className="list-wrap">
                                        {chart_List_2.map((list, i) => (<li key={i}>{list}</li>))}
                                     </ul>
                                  </div>
-                              </div>
+                              </div> */}
                            </div>
                         </div>
                      </div>
