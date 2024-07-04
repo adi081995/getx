@@ -42,7 +42,8 @@ const ChartArea = () => {
                      <div className="chart-wrap">
                         <div className="chart">
                            <div id="doughnutChart">
-                              {chartData[activeTab] && <Doughnut data={data} />}
+                              {/* {chartData[activeTab] && <Doughnut data={data} />} */}
+                              <img src="/assets/img/images/tokenallocation.png" alt="" />
                            </div>
                         </div>
                         <div className="chart-tab">
