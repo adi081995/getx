@@ -34,8 +34,8 @@ const roadmap_data: DataTyfe[] = [
    },
    {
       id: 5,
-      roadmap_title: "Long-term Vision",
-      title: "Months 19-24+",
+      roadmap_title: "Months 19-24+",
+      title: "Long-term Vision",
       desc: (<>Diversification of Use Cases, Community Engagement and Sustainability</>),
    },
 ]
