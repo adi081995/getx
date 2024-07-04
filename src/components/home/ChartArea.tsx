@@ -81,7 +81,7 @@ const ChartArea = () => {
                         <p>Ethereum is a decentralized, open-source <br /> blockchain with smart contract</p>
                         <ul className="list-wrap">
                            <li><span>1</span>Symbol: Gapx</li>
-                           <li><span>2</span>Initial Value : 1 ETH = 0  CIC</li>
+                           <li><span>2</span>Initial Value : 1 BNB Smart Chain = 0  CIC</li>
                            <li><span>3</span>Type : -</li>
                         </ul>
                      </div>
