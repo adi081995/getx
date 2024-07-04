@@ -7,7 +7,7 @@ const Contribution = () => {
             <div className="row justify-content-center">
                <div className="col-lg-10">
                   <div className="contribution-title">
-                     <h2 className="title"><span>$45,256,432</span> Contribution Receive</h2>
+                     <h2 className="title"><span>$0</span> Contribution Receive</h2>
                   </div>
                   <div className="progress-wrap">
                      <ul className="list-wrap">
@@ -22,7 +22,7 @@ const Contribution = () => {
                   </div>
                   <div className="contribution-btn">
                      <Link to="/contact" className="btn">Purchase a Token</Link>
-                     <Link to="/contact" className="btn btn-two">Read White Paper</Link>
+                     <Link to="/assets/white-paper-PDF-final-Gapx-file.pdf" download className="btn btn-two">Read White Paper</Link>
                   </div>
                </div>
             </div>

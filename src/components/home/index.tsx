@@ -17,13 +17,13 @@ const Home = () => {
          <Banner />
          <FeatureThree />
          <Contribution />
-         <Brand />
+         {/* <Brand /> */}
          <FeatureOne />
          <FeatureTwo />
          <FeatureOneTwo />
          <ChartArea />
          <RoadMapArea />
-         <Team />
+         {/* <Team /> */}
          <FAQ />
          <DownloadArea />
       </>
