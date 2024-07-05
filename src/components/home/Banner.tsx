@@ -26,8 +26,8 @@ const Banner = () => {
                </a>
          </div>
          <div className="banner-shape-wrap">
-            <img src="/assets/img/banner/banner_shape01.png" alt="" className="leftToRight" />
-            <img src="/assets/img/banner/banner_shape02.png" alt="" className="alltuchtopdown" />
+            <img src="/assets/img/banner/banner1.png" alt="" className="leftToRight" />
+            <img src="/assets/img/banner/banner2.png" alt="" className="alltuchtopdown" />
          </div>
       </section>
    )
