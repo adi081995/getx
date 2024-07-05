@@ -2,7 +2,7 @@
 
 const DownloadArea = () => {
    return (
-      <section className="download-area pt-130 pb-130">
+      <section className="download-area pt-130 pb-130" id="referandearn">
          <div className="container">
             <div className="download-inner-wrap">
                <div className="row align-items-end">

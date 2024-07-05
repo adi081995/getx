@@ -39,7 +39,7 @@ const menu_data: MenuItem[] = [
         id: 5,
         has_dropdown: false,
         title: "Refer & Earn",
-        link: "/.download-area",
+        link: "/#referandearn",
     },
     // {
     //     id: 5,
