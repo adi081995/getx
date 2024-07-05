@@ -78,11 +78,11 @@ const ChartArea = () => {
                   <div className="col-lg-6">
                      <div className="right-side-content">
                         <img src="/assets/img/banner/banner_1.png" alt="" />
-                        <p>Ethereum is a decentralized, open-source <br /> blockchain with smart contract</p>
+                        <p>BNB Smart Chain is a decentralized, open-source <br /> blockchain with smart contract</p>
                         <ul className="list-wrap">
                            <li><span>1</span>Symbol: Gapx</li>
-                           <li><span>2</span>Initial Value : 1 BNB Smart Chain = 0  CIC</li>
-                           <li><span>3</span>Type : -</li>
+                           <li><span>2</span>Initial Value : 1 BNB Smart Chain = 0  GAPX</li>
+                           <li><span>3</span>Type : - BEP20 </li>
                         </ul>
                      </div>
                   </div>

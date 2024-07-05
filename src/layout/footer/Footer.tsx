@@ -16,19 +16,19 @@ const footer_data: DataType[] = [
       id: 1,
       class_name: "col-xl-3 col-lg-3 col-md-4 col-sm-6",
       title: "Usefull Links",
-      footer_link: [{ link: "/contact", link_title: "Contact us" }, { link: "/contact", link_title: "How it Works" },]
+      footer_link: [{ link: "/", link_title: "Home" }, { link: "/#feature", link_title: "About Us" },]
    },
    {
       id: 2,
       class_name: "col-xl-3 col-lg-2 col-md-4 col-sm-6",
       title: "SOLUTIONS",
-      footer_link: [{ link: "/contact", link_title: "Token Suite" }, { link: "/contact", link_title: "Ecosystem" },]
+      footer_link: [{ link: "/#chart", link_title: "Tokenomics" }, { link: "/#roadMap", link_title: "RoadMap" },]
    },
    {
       id: 3,
       class_name: "col-xl-3 col-lg-3 col-md-4 col-sm-4",
       title: "Usefull Links",
-      footer_link: [{ link: "/contact", link_title: "Help Center" }, { link: "/contact", link_title: "Partners" },]
+      footer_link: [{ link: "/.download-area", link_title: "Refer & Earn" }, { link: "/contact", link_title: "Contact" },]
    },
 ]
 

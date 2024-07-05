@@ -20,13 +20,13 @@ const menu_data: MenuItem[] = [
     {
         id: 2,
         has_dropdown: false,
-        title: "Feature",
+        title: "About Us",
         link: "/#feature",
     },
     {
         id: 3,
         has_dropdown: false,
-        title: "Ico Chart",
+        title: "Tokenomics",
         link: "/#chart",
     },
     {
@@ -37,14 +37,20 @@ const menu_data: MenuItem[] = [
     },
     {
         id: 5,
-        has_dropdown: true,
-        title: "Blog",
-        link: "/blog",
-        sub_menus: [
-            { link: "/blog", title: "Our Blog" },
-            { link: "/blog-details", title: "Blog-Details", },
-        ],
+        has_dropdown: false,
+        title: "Refer & Earn",
+        link: "/.download-area",
     },
+    // {
+    //     id: 5,
+    //     has_dropdown: true,
+    //     title: "Blog",
+    //     link: "/blog",
+    //     sub_menus: [
+    //         { link: "/blog", title: "Our Blog" },
+    //         { link: "/blog-details", title: "Blog-Details", },
+    //     ],
+    // },
     {
         id: 6,
         has_dropdown: false,

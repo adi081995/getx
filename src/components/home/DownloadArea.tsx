@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom"
+// import { Link } from "react-router-dom"
 
 const DownloadArea = () => {
    return (
@@ -17,10 +17,10 @@ const DownloadArea = () => {
                               <li><span>2</span>Privacy & Policy</li> */}
                            </ul>
                         </div>
-                        <div className="download-btn-wrap">
+                        {/* <div className="download-btn-wrap">
                            <Link to="#" className="download-btn"><img src="/assets/img/images/download_btn01.png" alt="" /></Link>
                            <Link to="#" className="download-btn"><img src="/assets/img/images/download_btn02.png" alt="" /></Link>
-                        </div>
+                        </div> */}
                      </div>
                   </div>
                   <div className="col-lg-6">

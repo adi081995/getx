@@ -18,7 +18,7 @@ const Contribution = () => {
                      <div className="progress" role="progressbar">
                         <div className="progress-bar" style={{ width: "83%" }}></div>
                      </div>
-                     <h6 className="progress-title"> 65 target raised <span>1 BNB Smart Chain  = 0 CIC</span></h6>
+                     <h6 className="progress-title"> 65 target raised <span>1 BNB Smart Chain  = 0 GAPX</span></h6>
                   </div>
                   <div className="contribution-btn">
                      <Link to="/contact" className="btn">Purchase a Token</Link>
