@@ -25,7 +25,7 @@ const DownloadArea = () => {
                   </div>
                   <div className="col-lg-6">
                      <div className="download-img">
-                        <img src="/assets/img/images/download_img01.png" alt="" />
+                        <img src="/assets/img/images/refernearn.jpg" alt="" />
                         <img src="/assets/img/images/download_img02.png" alt="" />
                      </div>
                   </div>
