@@ -2,32 +2,20 @@
 const faq_data = [
    {
       id: 1,
-      question: " What cryptocurrencies can I use to purchase?",
-      answer: "LessAccounting is 100% web-based, meaning it can be accessed from anywhere and there’s no software to install on your computer. You can easily use LessAccounting on your iPhone or any Android mobile device with our cloud accounting.",
+      question: " What is GapX Coin?",
+      answer: "GapX Coin is a token on the Binance Smart Chain designed for global advanced payments, AI, and the gaming ecosystem.",
       showAnswer: false,
    },
    {
       id: 2,
-      question: "What is the ICO?",
-      answer: "LessAccounting is 100% web-based, meaning it can be accessed from anywhere and there’s no software to install on your computer. You can easily use LessAccounting on your iPhone or any Android mobile device with our cloud accounting.",
+      question: "How can I use GapX Coin?",
+      answer: "GapX Coin can be used for secure transactions, developing AI applications, and within various gaming platforms.",
       showAnswer: false,
    },
    {
       id: 3,
-      question: "How can I connect API with my Current Site",
-      answer: "LessAccounting is 100% web-based, meaning it can be accessed from anywhere and there’s no software to install on your computer. You can easily use LessAccounting on your iPhone or any Android mobile device with our cloud accounting.",
-      showAnswer: false,
-   },
-   {
-      id: 4,
-      question: "What is the Payment Mathod",
-      answer: "LessAccounting is 100% web-based, meaning it can be accessed from anywhere and there’s no software to install on your computer. You can easily use LessAccounting on your iPhone or any Android mobile device with our cloud accounting.",
-      showAnswer: false,
-   },
-   {
-      id: 5,
-      question: "What makes Less Accounting better than the rest?",
-      answer: "LessAccounting is 100% web-based, meaning it can be accessed from anywhere and there’s no software to install on your computer. You can easily use LessAccounting on your iPhone or any Android mobile device with our cloud accounting.",
+      question: "Where can I buy GapX Coin?",
+      answer: "You can purchase GapX Coin on major cryptocurrency exchanges after our Initial Exchange Offering (IEO).",
       showAnswer: false,
    },
 ];
