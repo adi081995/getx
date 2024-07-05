@@ -77,7 +77,7 @@ const ChartArea = () => {
                   </div>
                   <div className="col-lg-6">
                      <div className="right-side-content">
-                        <img src="/assets/img/images/chart_img.png" alt="" />
+                        <img src="/assets/img/images/banner_1.png" alt="" />
                         <p>Ethereum is a decentralized, open-source <br /> blockchain with smart contract</p>
                         <ul className="list-wrap">
                            <li><span>1</span>Symbol: Gapx</li>
