@@ -9,27 +9,15 @@ interface DataType {
 const feature_data: DataType[] = [
    {
       id: 1,
-      title: (<>Secure and Efficient Transactions</>),
-      desc: (<>Trade with confidence on our secure platform powered by GAPX Token's advanced blockchain technology, ensuring fast and reliable transactions.</>),
+      title: (<>Mission</>),
+      desc: (<>Our mission at Gapx is to empower a dynamic community through an innovative referral program and a resilient ecosystem. We redefine digital interactions with a secure token that elevates gaming, the metaverse, and digital transactions. Delve into our Gapx Chain, Wallet, Exchange, and Gaming Portal, where cutting-edge blockchain integration sets revolutionary standards in technology and user experience.</>),
       img: "/assets/img/images/features_img01.png",
    },
    {
       id: 2,
-      title: (<>Reduced Trading Fees</>),
-      desc: (<>Enjoy lower transaction costs when trading GAPX Token pairs on ExBit Global, maximizing your profitability with every trade.</>),
+      title: (<>Vision</>),
+      desc: (<>To lead the evolution of digital interaction through Gapx, enhancing global connectivity and innovation. We envision a future where our secure token, integrated across gaming, the metaverse, and digital transactions, fosters seamless and empowered communities worldwide. Join us in shaping tomorrow's digital landscape with confidence and trust.</>),
       img: "/assets/img/images/features_img02.png",
-   },
-   {
-      id: 3,
-      title: (<>Liquidity Rewards</>),
-      desc: (<>Stake your GAPX Tokens to earn passive income through liquidity rewards, enhancing your portfolio's growth potential.</>),
-      img: "/assets/img/images/features_img03.png",
-   },
-   {
-      id: 4,
-      title: (<>Exclusive Trading Opportunities</>),
-      desc: (<>Access exclusive trading pairs and opportunities available only through GAPX Token integration, diversifying your investment strategy.</>),
-      img: "/assets/img/images/features_img04.png",
    },
 ]
 const FeatureOne = () => {
@@ -39,7 +27,7 @@ const FeatureOne = () => {
             <div className="row justify-content-center">
                <div className="col-lg-10">
                   <div className="section-title text-center mb-70">
-                     <h2 className="title">Explore the Power of GAPX Token Integration on Exbitglobal</h2>
+                     <h2 className="title">Our Mission And Vision</h2>
                   </div>
                </div>
             </div>

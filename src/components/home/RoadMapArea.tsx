@@ -10,33 +10,27 @@ interface DataTyfe {
 const roadmap_data: DataTyfe[] = [
    {
       id: 1,
-      roadmap_title: "Months 1-3",
+      roadmap_title: "2024",
       title: "Launch and Foundation",
-      desc: (<>Lisitng on Decentralized Exchanges</>),
+      desc: (<>Gapx Launch Event, o	Partnership Announcements, Community Building, Gapxbit Exchange Launch , Educational Campaigns</>),
    },
    {
       id: 2,
-      roadmap_title: "Months 4-6",
-      title: "Expansion and Integration",
-      desc: (<>Meta Integration, E-Commerce Integration, Staking and Governance Launch</>),
+      roadmap_title: "2025",
+      title: "Expansion and Integration ",
+      desc: (<>Platform Integration, Marketing Initiatives, Gapx Wallet Enhancement, Strategic Partnerships</>),
    },
    {
       id: 3,
-      roadmap_title: "Months 7-12",
-      title: "Growth and Adoption",
-      desc: (<>Expansion of Utility, Global Outreach, Technology Upgrades, Stategic Partnerships</>),
+      roadmap_title: "2026",
+      title: "Adoption and Global Reach ",
+      desc: (<>Global Expansion, Enterprise Integration & User Feedback Loop</>),
    },
    {
       id: 4,
-      roadmap_title: "Months 13-18",
-      title: "Innovation and Sustainability",
-      desc: (<>Token Burn and Supply Management</>),
-   },
-   {
-      id: 5,
-      roadmap_title: "Months 19-24+",
-      title: "Long-term Vision",
-      desc: (<>Diversification of Use Cases, Community Engagement and Sustainability</>),
+      roadmap_title: "2027 and beyond",
+      title: "Innovation and Beyond",
+      desc: (<>Innovative Marketing, Thought Leadership, Sustainability Initiatives</>),
    },
 ]
 

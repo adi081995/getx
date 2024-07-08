@@ -9,27 +9,39 @@ interface DataType {
 const feature_data: DataType[] = [
    {
       id: 1,
-      title: (<>Staking Rewards</>),
+      title: (<>Launchpad </>),
       desc: (<>Earn rewards by staking GAPX Tokens, contributing to network security and liquidity provision.</>),
       img: "/assets/img/images/features_img01.png",
    },
    {
       id: 2,
-      title: (<>Referral Program</>),
+      title: (<>Presale </>),
       desc: (<>Invite friends to join ExBit Global and earn rewards through our referral program, expanding your earnings with each new member.</>),
       img: "/assets/img/images/features_img02.png",
    },
    {
       id: 3,
-      title: (<>Launchpad Access</>),
+      title: (<>Development </>),
       desc: (<>Participate in token launch events via our launchpad, gaining early access to promising projects and potential investment opportunities.</>),
       img: "/assets/img/images/features_img03.png",
    },
    {
       id: 4,
-      title: (<>Promotions and Giveaways</>),
+      title: (<>Team </>),
       desc: (<>Engage in regular promotions and giveaways to win GAPX Tokens and other exciting rewards, recognizing your loyalty and active participation.</>),
       img: "/assets/img/images/features_img04.png",
+   },
+   {
+      id: 5,
+      title: (<>Staking Partners Bonus </>),
+      desc: (<>Reserved for incentivizing staking activities, encouraging active participation in the ecosystem and promoting token liquidity.</>),
+      img: "/assets/img/images/features_img01.png",
+   },
+   {
+      id: 6,
+      title: (<>Reserve </>),
+      desc: (<>Held in reserve to support liquidity management, strategic partnerships, and unforeseen operational needs, ensuring stability and sustainability.</>),
+      img: "/assets/img/images/features_img02.png",
    },
 ]
 const FeatureOneTwo = () => {

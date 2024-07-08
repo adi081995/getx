@@ -3,7 +3,7 @@ import { useState } from 'react';
 import 'chart.js/auto';
 
 const tab_title: string[] = ["Total Supply and Allocation"];//"Token Distribution",
-const chart_List_1: string[] = ["Launchpad Initiatives: 10%", "Presale Distribution: 40%", "Team Incentives: 15%", "Development: 15%", "Bonus for Top Long-term Staking Partners: 10%", "Reserved for Future Strategic Initiatives: 10%"]
+const chart_List_1: string[] = ["Launchpad: 10%", "Presale: 40%", "Development : 15%", "Team: 15%", "Staking Partners Bonus : 10%", "Reserve : 10%"]
 // const chart_List_2: string[] = ["Czech Republic: 50%", "Poland: 15%", "Legal & Regulation: 20%", "Contingency: 70%", "Business Development: 20%", "Investor: 30%"]
 
 const ChartArea = () => {
