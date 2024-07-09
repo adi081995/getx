@@ -391,17 +391,17 @@
 
 
 }
-
-
+@media (min-width: 767.98px) {
+.features-item-join{
+    height:20em;
+}
+.features-item-mv{
+    height:32em;
+}
+}
 
 /* Medium devices (tablets, 768px and up) */
 @media (max-width: 767.98px) {
-    .features-item-join{
-        height:20em;
-    }
-    .features-item-mv{
-        height:32em;
-    }
 .container,
 .custom-container {
     max-width: 100%;
