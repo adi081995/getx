@@ -17,7 +17,7 @@ const feature_data: DataType[] = [
       id: 2,
       title: (<>Vision</>),
       desc: (<>To lead the evolution of digital interaction through Gapx, enhancing global connectivity and innovation. We envision a future where our secure token, integrated across gaming, the metaverse, and digital transactions, fosters seamless and empowered communities worldwide. Join us in shaping tomorrow's digital landscape with confidence and trust.</>),
-      img: "/assets/img/images/features_img02.png",
+      img: "/assets/img/images/vm.png",
    },
    {
       id: 3,
@@ -39,7 +39,7 @@ const FeatureOne = () => {
             </div>
             <div className="row">
             {feature_data.map((item) => (
-               (item.id === 1 || item.id === 2) ? (
+               (item.id === 1 || item.id === 3) ? (
                   <div key={item.id} className="col-lg-4">
                      <div className="features-item">
                      <div className="features-content" style={{width:'unset'}}>
