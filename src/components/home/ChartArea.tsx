@@ -81,7 +81,7 @@ const ChartArea = () => {
                         <p>BNB Smart Chain is a decentralized, open-source <br /> blockchain with smart contract</p>
                         <ul className="list-wrap">
                            <li><span>1</span>Symbol: Gapx</li>
-                           <li><span>2</span>Initial Value : 1 BNB Smart Chain = 0  GAPX</li>
+                           <li><span>2</span>Initial Value : 1 GAPX = 0.000099 USDT</li>
                            <li><span>3</span>Type : - BEP20 </li>
                         </ul>
                      </div>
