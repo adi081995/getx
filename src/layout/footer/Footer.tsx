@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import NewsletterForm from "../../components/forms/NewsletterForm";
+// import NewsletterForm from "../../components/forms/NewsletterForm";
 
 interface DataType {
    id: number;
@@ -56,10 +56,9 @@ const Footer = () => {
 
                      <div className="col-xl-3 col-lg-4 col-sm-8">
                         <div className="footer-widget">
-                           <h4 className="fw-title">Subscribe Newsletter</h4>
+                           <h4 className="fw-title">Follow Us on Social Media</h4>
                            <div className="footer-newsletter">
-                              <p>Exerci tation ullamcorper suscipit lobortis nisl aliquip ex ea commodo</p>
-                              <NewsletterForm />
+                              
                            </div>
                         </div>
                      </div>
