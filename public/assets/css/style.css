@@ -1638,13 +1638,13 @@ label {
     margin-left: 14px;
     letter-spacing: 0.56px;
     text-transform: uppercase;
-    height:24em!important;
 }
 .roadmap-content {
     border: 1px solid rgba(43 44 56 / 46%);
     background: var(--tg-secondary-color);
     border-radius: 15px;
     padding: 75px 50px 65px;
+    height:24em!important;
 }
 .roadmap-content .title {
     display: flex;
