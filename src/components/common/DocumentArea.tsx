@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom"
 import DocumentForm from "../forms/DocumentForm"
 
-const doc_data: string[] = ["Whitepaper", "Token Sale Terms", "Presentation", "Lightpaper"]
+const doc_data: string[] = ["Whitepaper"]
 
 const DocumentArea = () => {
    return (
@@ -28,10 +28,7 @@ const DocumentArea = () => {
                         <ul className="list-wrap">
                            {doc_data.map((list, i) => (
                               <li key={i}>
-                                 <Link to="#">
-                                    <span className="icon"><i className="fas fa-file-pdf"></i></span>
-                                    {list}
-                                 </Link>
+                                 <Link to="/assets/white-paper-PDF-final-Gapx-file.pdf" download className="btn btn-two">{list}</Link>
                               </li>
                            ))}
                         </ul>

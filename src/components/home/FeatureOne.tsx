@@ -11,7 +11,7 @@ const feature_data: DataType[] = [
       id: 1,
       title: (<>Mission</>),
       desc: (<>Our mission at Gapx is to empower a dynamic community through an innovative referral program and a resilient ecosystem. We redefine digital interactions with a secure token that elevates gaming, the metaverse, and digital transactions. Delve into our Gapx Chain, Wallet, Exchange, and Gaming Portal, where cutting-edge blockchain integration sets revolutionary standards in technology and user experience.</>),
-      img: "/assets/img/images/features_img01.png",
+      img: "/assets/img/banner/banner_1.png",
    },
    {
       id: 2,
