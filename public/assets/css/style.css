@@ -309,8 +309,38 @@ label {
     vertical-align: middle;
     white-space: nowrap;
 }
+.btn-country {
+    user-select: none;
+    -moz-user-select: none;
+    border: medium none;
+    border-radius: 30px;
+    color: var(--tg-black);
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: -0.42px;
+    line-height: 1;
+    margin-bottom: 0;
+    padding: 18px 45px;
+    text-align: center;
+    text-transform: none;
+    touch-action: manipulation;
+    transition: all 0.3s ease 0s;
+    vertical-align: middle;
+    white-space: nowrap;
+}
 .btn::after {
     content: "\f054";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 700;
+    color: var(--tg-primary-color);
+    line-height: 1;
+    margin-left: 40px;
+    transition: all 0.3s ease 0s;
+}
+.btn-country::after {
     font-family: "Font Awesome 5 Free";
     font-weight: 700;
     color: var(--tg-primary-color);

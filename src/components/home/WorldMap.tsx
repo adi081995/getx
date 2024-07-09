@@ -9,9 +9,9 @@ const WorldMap = () => {
                    <div className="col-lg-6">
                       <div className="download-content">
                          <div className="section-title mb-40">
-                            <h2 className="title" style={{ backgroundColor:'unset' }}><Link to="#" className="btn" style={{ content:'' }}>Bangladesh</Link> &nbsp; <span>Nigeria</span> &nbsp; <span>Australia</span></h2>
-                            <h2 className="title" style={{ backgroundColor:'unset' }}>India &nbsp; <span>Pakistan</span> &nbsp; <span>Pillipines</span></h2>
-                            <h2 className="title" style={{ backgroundColor:'unset' }}>Germany &nbsp; <span>Canada</span></h2>
+                            <h2 className="title" style={{ backgroundColor:'unset' }}><Link to="#" className="btn-country" style={{ content:'' }}>Bangladesh</Link> &nbsp; <span><Link to="#" className="btn-country" style={{ content:'' }}>Nigeria</Link></span> &nbsp; <span><Link to="#" className="btn-country" style={{ content:'' }}>Australia</Link></span></h2>
+                            <h2 className="title" style={{ backgroundColor:'unset' }}><Link to="#" className="btn-country" style={{ content:'' }}>India</Link> &nbsp; <span><Link to="#" className="btn-country" style={{ content:'' }}>Pakistan</Link></span> &nbsp; <span><Link to="#" className="btn-country" style={{ content:'' }}>Pillipines</Link></span></h2>
+                            <h2 className="title" style={{ backgroundColor:'unset' }}><Link to="#" className="btn-country" style={{ content:'' }}>Germany</Link> &nbsp; <span><Link to="#" className="btn-country" style={{ content:'' }}>Canada</Link></span></h2>
                          </div>
                          <div className="download-list">
                             <ul className="list-wrap">
