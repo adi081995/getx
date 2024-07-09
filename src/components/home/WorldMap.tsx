@@ -9,7 +9,7 @@ const WorldMap = () => {
                    <div className="col-lg-6">
                       <div className="download-content">
                          <div className="section-title mb-40">
-                            <h2 className="title"><Link to="#" className="btn">Bangladesh</Link> &nbsp; <span>Nigeria</span> &nbsp; <span>Australia</span></h2>
+                            <h2 className="title"><Link to="#" className="btn btn-two">Bangladesh</Link> &nbsp; <span>Nigeria</span> &nbsp; <span>Australia</span></h2>
                             <h2 className="title">India &nbsp; <span>Pakistan</span> &nbsp; <span>Pillipines</span></h2>
                             <h2 className="title">Germany &nbsp; <span>Canada</span></h2>
                          </div>
