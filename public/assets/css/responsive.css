@@ -16,12 +16,7 @@
 
 /* Extra large devices (large desktops, 1800px and up) */
 @media (max-width: 1500px) {
-.features-item-join{
-    height:20em;
-}
-.features-item-mv{
-    height:32em;
-}
+
 .container {
     max-width: 1320px;
 }
@@ -244,6 +239,12 @@
 
 /* Large devices (desktops, 992px and up) */
 @media (max-width: 991.98px) {
+    .features-item-join{
+        height:20em;
+    }
+    .features-item-mv{
+        height:32em;
+    }
 .container,
 .custom-container {
     max-width: 720px;
