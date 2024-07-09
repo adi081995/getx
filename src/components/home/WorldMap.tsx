@@ -27,7 +27,7 @@ const WorldMap = () => {
                    </div>
                    <div className="col-lg-6">
                       <div className="download-img">
-                         <img src="/assets/img/images/map.jpg" alt="" />
+                         <img src="/assets/img/images/map-Photoroom.png" alt="" />
                          {/* <img src="/assets/img/images/download_img02.png" alt="" /> */}
                       </div>
                    </div>
