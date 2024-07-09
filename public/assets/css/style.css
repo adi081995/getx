@@ -315,7 +315,7 @@ label {
     background: var(--tg-white) none repeat scroll 0 0;
     border: medium none;
     border-radius: 30px;
-    color: var(--tg-black);
+    color: var(--tg-black)!important;
     cursor: pointer;
     display: inline-flex;
     align-items: center;
