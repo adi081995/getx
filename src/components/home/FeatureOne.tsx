@@ -39,7 +39,7 @@ const FeatureOne = () => {
             </div>
             <div className="row">
             {feature_data.map((item) => (
-               (item.id === 1 || item.id === 3) ? (
+               (item.id === 1 || item.id === 2) ? (
                   <div key={item.id} className="col-lg-4">
                      <div className="features-item">
                      <div className="features-content" style={{width:'unset'}}>
