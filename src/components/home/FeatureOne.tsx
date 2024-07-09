@@ -23,7 +23,7 @@ const feature_data: DataType[] = [
       id: 3,
       title: (<>Vision</>),
       desc: (<>To lead the evolution of digital interaction through Gapx, enhancing global connectivity and innovation. We envision a future where our secure token, integrated across gaming, the metaverse, and digital transactions, fosters seamless and empowered communities worldwide. Join us in shaping tomorrow's digital landscape with confidence and trust.</>),
-      img: "/assets/img/images/features_img02.png",
+      img: "/assets/img/images/vm.png",
    },
 ]
 const FeatureOne = () => {
