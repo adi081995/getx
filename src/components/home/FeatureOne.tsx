@@ -19,6 +19,12 @@ const feature_data: DataType[] = [
       desc: (<>To lead the evolution of digital interaction through Gapx, enhancing global connectivity and innovation. We envision a future where our secure token, integrated across gaming, the metaverse, and digital transactions, fosters seamless and empowered communities worldwide. Join us in shaping tomorrow's digital landscape with confidence and trust.</>),
       img: "/assets/img/images/features_img02.png",
    },
+   {
+      id: 3,
+      title: (<>Vision</>),
+      desc: (<>To lead the evolution of digital interaction through Gapx, enhancing global connectivity and innovation. We envision a future where our secure token, integrated across gaming, the metaverse, and digital transactions, fosters seamless and empowered communities worldwide. Join us in shaping tomorrow's digital landscape with confidence and trust.</>),
+      img: "/assets/img/images/features_img02.png",
+   },
 ]
 const FeatureOne = () => {
    return (
@@ -32,19 +38,25 @@ const FeatureOne = () => {
                </div>
             </div>
             <div className="row">
-               {feature_data.map((item) => (
-                  <div key={item.id} className="col-lg-6">
+            {feature_data.map((item) => (
+               (item.id === 1 || item.id === 3) ? (
+                  <div key={item.id} className="col-lg-4">
                      <div className="features-item">
-                        <div className="features-content">
-                           <h2 className="title"><Link to="#!">{item.title}</Link></h2>
-                           <p>{item.desc}</p>
-                        </div>
-                        <div className="features-img">
-                           <img src={item.img} alt="" />
-                        </div>
+                     <div className="features-content">
+                        <h2 className="title"><Link to="#!">{item.title}</Link></h2>
+                        <p>{item.desc}</p>
+                     </div>
                      </div>
                   </div>
+               ) : (
+                  <div key={item.id} className="features-img">
+                     <img src={item.img} alt="" />
+                  </div>
+               )
                ))}
+
+
+
             </div>
          </div>
       </section>
