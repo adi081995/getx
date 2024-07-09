@@ -32,7 +32,7 @@ const DocumentArea = () => {
                               </li>
                            ))}
                         </ul>
-                        <Link to="#" className="btn">Download All</Link>
+                        {/* <Link to="#" className="btn">Download All</Link> */}
                      </div>
                   </div>
                </div>
