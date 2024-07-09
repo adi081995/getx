@@ -58,8 +58,8 @@ const FeatureOneTwo = () => {
             <div className="row">
                {feature_data.map((item) => (
                   <div key={item.id} className="col-lg-6">
-                     <div className="features-item">
-                        <div className="features-content features-item-join">
+                     <div className="features-item features-item-join">
+                        <div className="features-content ">
                            <h2 className="title"><Link to="#!">{item.title}</Link></h2>
                            <p>{item.desc}</p>
                         </div>
