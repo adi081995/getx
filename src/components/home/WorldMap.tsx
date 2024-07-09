@@ -8,7 +8,7 @@ const WorldMap = () => {
                 <div className="row align-items-end">
                    <div className="col-lg-6">
                       <div className="download-content">
-                         <div className="section-title mb-40">
+                         <div className="section- mb-40">
                             <h2 className="title" style={{ backgroundColor:'unset' }}><Link to="#" className="btn-country" style={{ content:'' }}>Bangladesh</Link> &nbsp; <span><Link to="#" className="btn-country" style={{ content:'' }}>Nigeria</Link></span> &nbsp; <span><Link to="#" className="btn-country" style={{ content:'' }}>Australia</Link></span></h2>
                             <h2 className="title" style={{ backgroundColor:'unset' }}><Link to="#" className="btn-country" style={{ content:'' }}>India</Link> &nbsp; <span><Link to="#" className="btn-country" style={{ content:'' }}>Pakistan</Link></span> &nbsp; <span><Link to="#" className="btn-country" style={{ content:'' }}>Pillipines</Link></span></h2>
                             <h2 className="title" style={{ backgroundColor:'unset' }}><Link to="#" className="btn-country" style={{ content:'' }}>Germany</Link> &nbsp; <span><Link to="#" className="btn-country" style={{ content:'' }}>Canada</Link></span></h2>
