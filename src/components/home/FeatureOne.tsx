@@ -42,9 +42,9 @@ const FeatureOne = () => {
                (item.id === 1 || item.id === 3) ? (
                   <div key={item.id} className="col-lg-4">
                      <div className="features-item">
-                     <div className="features-content">
-                        <h2 className="title"><Link to="#!">{item.title}</Link></h2>
-                        <p>{item.desc}</p>
+                     <div className="features-content" style={{position:'unset'}}>
+                        <h2 className="title" style={{textAlign:'center'}}><Link to="#!">{item.title}</Link></h2>
+                        <p style={{textAlign:'justify'}}>{item.desc}</p>
                      </div>
                      </div>
                   </div>
