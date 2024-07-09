@@ -1047,7 +1047,7 @@ label {
     animation-delay: -0.4s;
 }
 .banner-shape-wrap img {
-    position: absolute;
+    /* position: absolute; */
 }
 .banner-shape-wrap img:nth-child(1) {
     left: 107px;
