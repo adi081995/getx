@@ -59,7 +59,7 @@ const FeatureOneTwo = () => {
                {feature_data.map((item) => (
                   <div key={item.id} className="col-lg-6">
                      <div className="features-item">
-                        <div className="features-content">
+                        <div className="features-content features-item-join">
                            <h2 className="title"><Link to="#!">{item.title}</Link></h2>
                            <p>{item.desc}</p>
                         </div>

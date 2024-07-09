@@ -16,6 +16,12 @@
 
 /* Extra large devices (large desktops, 1800px and up) */
 @media (max-width: 1500px) {
+.features-item-join{
+    height:20em;
+}
+.features-item-mv{
+    height:32em;
+}
 .container {
     max-width: 1320px;
 }
