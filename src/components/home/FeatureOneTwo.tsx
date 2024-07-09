@@ -11,7 +11,7 @@ const feature_data: DataType[] = [
       id: 1,
       title: (<>Launchpad </>),
       desc: (<>Earn rewards by staking GAPX Tokens, contributing to network security and liquidity provision.</>),
-      img: "/assets/img/images/features_img01.png",
+      img: "/assets/img/banner/banner_1.png",
    },
    {
       id: 2,
@@ -35,7 +35,7 @@ const feature_data: DataType[] = [
       id: 5,
       title: (<>Staking Partners Bonus </>),
       desc: (<>Reserved for incentivizing staking activities, encouraging active participation in the ecosystem and promoting token liquidity.</>),
-      img: "/assets/img/images/features_img01.png",
+      img: "/assets/img/banner/banner_1.png",
    },
    {
       id: 6,
