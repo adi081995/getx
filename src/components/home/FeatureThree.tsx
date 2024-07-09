@@ -46,7 +46,7 @@ const FeatureThree = () => {
                <div className="row">
                   <div className="col-lg-12">
                      <div className="section-title section-title-two text-center">
-                        <h2 className="title" style={{fontSize: '26px'}} >Discover Gapx, where innovation meets reliability in the digital realm. Our mission is to foster a strong community through a dynamic referral program and a robust ecosystem. Gapx introduces a secure token tailored for seamless functionality across gaming, the metaverse, and digital transactions. Explore our cutting-edge offerings: the Gapx Chain, a state-of-the-art blockchain network; the Gapx Wallet, an intuitive digital wallet solution; the Gapx Exchange, your trusted platform for cryptocurrency trading; and the Gapx Gaming Portal, revolutionizing gaming experiences with blockchain integration. Step into the future of secure digital interactions with Gapx today.</h2>
+                        <h2 className="title title-font">Discover Gapx, where innovation meets reliability in the digital realm. Our mission is to foster a strong community through a dynamic referral program and a robust ecosystem. Gapx introduces a secure token tailored for seamless functionality across gaming, the metaverse, and digital transactions. Explore our cutting-edge offerings: the Gapx Chain, a state-of-the-art blockchain network; the Gapx Wallet, an intuitive digital wallet solution; the Gapx Exchange, your trusted platform for cryptocurrency trading; and the Gapx Gaming Portal, revolutionizing gaming experiences with blockchain integration. Step into the future of secure digital interactions with Gapx today.</h2>
                      </div>
                   </div>
                </div>
