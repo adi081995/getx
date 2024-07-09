@@ -49,8 +49,10 @@ const FeatureOne = () => {
                      </div>
                   </div>
                ) : (
-                  <div key={item.id} className="features-img">
-                     <img src={item.img} alt="" />
+                  <div key={item.id} className="col-lg-4">
+                     <div key={item.id} className="features-img">
+                        <img src={item.img} alt="" />
+                     </div>
                   </div>
                )
                ))}
