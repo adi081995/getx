@@ -28,7 +28,7 @@ const footer_data: DataType[] = [
       id: 3,
       class_name: "col-xl-3 col-lg-3 col-md-4 col-sm-4",
       title: "Usefull Links",
-      footer_link: [{ link: "/#referandearn", link_title: "Refer & Earn" }, { link: "/contact", link_title: "Contact" },]
+      footer_link: [{ link: "/#referandearn", link_title: "Refer & Earn" }, { link: "/#document-area", link_title: "Contact" },]
    },
 ]
 

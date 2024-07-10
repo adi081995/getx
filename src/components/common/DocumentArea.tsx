@@ -5,7 +5,7 @@ const doc_data: string[] = ["Whitepaper"]
 
 const DocumentArea = () => {
    return (
-      <section className="document-area">
+      <section id="document-area" className="document-area">
          <div className="container">
             <div className="document-inner-wrap">
                <div className="row">

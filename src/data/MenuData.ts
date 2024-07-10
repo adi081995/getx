@@ -55,7 +55,7 @@ const menu_data: MenuItem[] = [
         id: 6,
         has_dropdown: false,
         title: "Contact",
-        link: "/contact",
+        link: "/#document-area",
     },
 ];
 export default menu_data;
