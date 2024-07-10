@@ -28,7 +28,7 @@ const footer_data: DataType[] = [
       id: 3,
       class_name: "col-xl-3 col-lg-3 col-md-4 col-sm-4",
       title: "Usefull Links",
-      footer_link: [{ link: "/#referandearn", link_title: "Refer & Earn" }, { link: "/#document-area", link_title: "Contact" },]
+      footer_link: [{ link: "/#referandearn", link_title: "Refer & Earn" }, { link: "/#download-area", link_title: "Contact" },]
    },
 ]
 
@@ -45,8 +45,8 @@ const Footer = () => {
                               <h4 className="fw-title">{item.title}</h4>
                               <div className="footer-link">
                                  <ul className="list-wrap">
-                                    {item.footer_link.map((li) => (
-                                       <Link to={li.link}>{li.link_title}</Link>
+                                    {item.footer_link.map((li, i) => (
+                                       <li key={i}><Link to={li.link}>{li.link_title}</Link></li>
                                     ))}
                                  </ul>
                               </div>
@@ -58,13 +58,13 @@ const Footer = () => {
                         <div className="footer-widget">
                            <h4 className="fw-title">Follow Us on Social Media</h4>
                            <div className="footer-newsletter">
-                           <div className="social-icon-right mt-30">
-                              <Link to="https://www.facebook.com/profile.php?id=61562116088413&sk=about"><i className="fab fa-facebook-f"></i></Link>
-                              <Link to="https://x.com/GapXbit"><i className="fab fa-twitter"></i></Link>
-                              <Link to="https://medium.com/@gapxbit"><i className="fab fa-medium"></i></Link>
-                              <Link to="https://www.quora.com/profile/GAP-X-BIT"><i className="fab fa-quora"></i></Link>
-                              <Link to="https://coinmarketcap.com/community/profile/Gapx/"><i className="fas fa-users"></i></Link>
-                           </div>
+                              <div className="social-icon-right mt-30">
+                                 <Link to="https://www.facebook.com/profile.php?id=61562116088413&sk=about"><i className="fab fa-facebook-f"></i></Link>
+                                 <Link to="https://x.com/GapXbit"><i className="fab fa-twitter"></i></Link>
+                                 <Link to="https://medium.com/@gapxbit"><i className="fab fa-medium"></i></Link>
+                                 <Link to="https://www.quora.com/profile/GAP-X-BIT"><i className="fab fa-quora"></i></Link>
+                                 <Link to="https://coinmarketcap.com/community/profile/Gapx/"><i className="fas fa-users"></i></Link>
+                              </div>
                            </div>
                         </div>
                      </div>
