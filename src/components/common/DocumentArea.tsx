@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom"
+// import { Link } from "react-router-dom"
 import DocumentForm from "../forms/DocumentForm"
 
 const doc_data: string[] = ["Whitepaper"]
