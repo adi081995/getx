@@ -1,4 +1,4 @@
-import CountdownClock from "../../ui/CountDownClock"
+// import CountdownClock from "../../ui/CountDownClock"
 
 const Banner = () => {
    return (
@@ -11,7 +11,7 @@ const Banner = () => {
                      <p>A new smart block chain based marketplace for trading digital <br /> goods & assets according.</p>
                      <div className="banner-countdown-wrap">
                         <div className="coming-time" data-countdown="2024/8/29">
-                           <CountdownClock />
+                           {/* <CountdownClock /> */}
                         </div>
                      </div>
                   </div>
@@ -26,7 +26,7 @@ const Banner = () => {
                </a>
          </div>
          <div className="banner-shape-wrap">
-            <img src="/assets/img/banner/banner_1.png" alt="" className="leftToRight" />
+            {/* <img src="/assets/img/banner/banner_1.png" alt="" className="leftToRight" /> */}
             <img src="/assets/img/banner/banner_2.png" alt="" className="alltuchtopdown" />
          </div>
       </section>
