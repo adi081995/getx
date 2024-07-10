@@ -2,7 +2,7 @@
 
 const Banner = () => {
    return (
-      <section className="banner-area banner-bg" style={{ backgroundImage: `url(/assets/img/banner/features_bg.png)` }}>
+      <section className="banner-area banner-bg" style={{ backgroundImage: `url(/assets/img/images/features_bg.png)` }}>
          <div className="container">
             <div className="row justify-content-center">
                <div className="col-lg-10">
