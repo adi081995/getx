@@ -46,7 +46,7 @@ const Footer = () => {
                               <div className="footer-link">
                                  <ul className="list-wrap">
                                     {item.footer_link.map((li, i) => (
-                                       <li key={i}><Link to={li.link}>{li.link_title}</Link></li>
+                                       <Link to={li.link}>{li.link_title}</Link>
                                     ))}
                                  </ul>
                               </div>
