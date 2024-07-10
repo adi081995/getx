@@ -9,7 +9,7 @@ import FeatureOneTwo from "./FeatureOneTwo";
 import FeatureTwo from "./FeatureTwo";
 // import FeatureThree from "./FeatureThree";
 import RoadMapArea from "./RoadMapArea";
-import WorldMap from "./WorldMap";
+// import WorldMap from "./WorldMap";
 // import Team from "./Team";
 
 const Home = () => {
@@ -27,7 +27,7 @@ const Home = () => {
          {/* <Team /> */}
          <FAQ />
          <DownloadArea />
-         <WorldMap />
+         {/* <WorldMap /> */}
       </>
    )
 }
