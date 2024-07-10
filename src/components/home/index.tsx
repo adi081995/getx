@@ -6,7 +6,7 @@ import DownloadArea from "./DownloadArea";
 import FAQ from "./Faq";
 import FeatureOne from "./FeatureOne";
 import FeatureOneTwo from "./FeatureOneTwo";
-import FeatureTwo from "./FeatureTwo";
+// import FeatureTwo from "./FeatureTwo";
 // import FeatureThree from "./FeatureThree";
 import RoadMapArea from "./RoadMapArea";
 // import WorldMap from "./WorldMap";
@@ -20,7 +20,7 @@ const Home = () => {
          <Contribution />
          {/* <Brand /> */}
          <FeatureOne />
-         <FeatureTwo />
+         {/* <FeatureTwo /> */}
          <FeatureOneTwo />
          <ChartArea />
          <RoadMapArea />
