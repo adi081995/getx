@@ -58,7 +58,13 @@ const Footer = () => {
                         <div className="footer-widget">
                            <h4 className="fw-title">Follow Us on Social Media</h4>
                            <div className="footer-newsletter">
-                              
+                           <div className="social-icon-right mt-30">
+                              <Link to="https://www.facebook.com/profile.php?id=61562116088413&sk=about"><i className="fab fa-facebook-f"></i></Link>
+                              <Link to="https://x.com/GapXbit"><i className="fab fa-twitter"></i></Link>
+                              <Link to="https://medium.com/@gapxbit"><i className="fab fa-medium"></i></Link>
+                              <Link to="https://www.quora.com/profile/GAP-X-BIT"><i className="fab fa-quora"></i></Link>
+                              <Link to="https://coinmarketcap.com/community/profile/Gapx/"><i className="fas fa-users"></i></Link>
+                           </div>
                            </div>
                         </div>
                      </div>
