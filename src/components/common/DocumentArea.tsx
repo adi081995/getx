@@ -28,7 +28,13 @@ const DocumentArea = () => {
                         <ul className="list-wrap">
                            {doc_data.map((list, i) => (
                               <li key={i}>
-                                 <Link to="/assets/white-paper-PDF-final-Gapx-file.pdf" download className="btn btn-two">{list}</Link>
+                                 <a
+                                    href="/assets/white-paper-PDF-final-Gapx-file.pdf"
+                                    download
+                                    className="btn btn-two"
+                                 >
+                                    {list}
+                                 </a>
                               </li>
                            ))}
                         </ul>
